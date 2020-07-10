@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+.infected {
+    background-color: cornflowerblue !important;
+    border: 10px solid blue;
+    margin: 0 1% !important;
+    font-size: large;
+    
+}
+
+.recovered {
+    background-color: yellow !important;
+    border: 10px solid greenyellow;
+    margin: 0 1% !important;
+    width: 100% !important;
+}
+
+.deaths {
+    background-color: orangered !important;
+    border: 10px solid brown;
+    margin: 0 1% !important;
+}
